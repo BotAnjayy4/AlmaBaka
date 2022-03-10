@@ -1,6 +1,6 @@
 /*
-Support channel ZEEONE OFC
+Support My Github
 
 
-Yang jual sc ini anak haram
+Thanks
 */
