@@ -1408,7 +1408,7 @@ const fakeitem = (teks) => {
         key:{
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
-remoteJid :"6289523258649-1604595598@g.us" }: {})
+remoteJid :"6289667644225-1604595598@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
            
        const sendStickerFromUrl = async(to, url) => {
@@ -4279,8 +4279,9 @@ if (!isGroup) return reply(lang.onlygc())
 			case 'tagall':
 			if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
+if (!isOwner) return reply(lang.onlyowner()):''
 					members_id = []
-					teks = (args.length > 1) ? body.slice(8).trim() : ''
+					teks = (args.length > 1) ? body.slice(8).trim()
 					teks += '\n\n'
 					for (let mem of groupMembers) {
 					teks += `@${mem.jid.split('@')[0]}\n`
