@@ -1,7 +1,7 @@
 {
     "self_mode": false,
 	"autobio": true,
-	"msg_connected": false,
+	"msg_connected": true,
 	"user_register": false,
 	"anti_delete" : true,
 	"anticall": true,
@@ -10,7 +10,7 @@
 	"prefix": ".",
 	"language":"ind",
 	"ownerNumberr": "6289667644225",
-	"ownername": "ᴹᴿ᭄ InzGabz ×፝֟͜×",
+	"ownername": "ᴹᴿ᭄ InzGanz ×፝֟͜×",
 	"botname":"cloudbotz",
 	"thumb":"thumbnail_1.jpg",
 	"thumbnail":"thumbnail_2_1.jpg",
